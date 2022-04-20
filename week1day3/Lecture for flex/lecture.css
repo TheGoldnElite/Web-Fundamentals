@@ -1,0 +1,43 @@
+div {
+    background-color: violet;
+    height: 100px;
+    width:100px;
+}
+
+.left {
+    flex:2;
+    background-color: aqua;
+}
+
+.right{
+    flex:2;
+    background-color: yellow;
+}
+.middle{
+    flex:3;
+    background-color: coral;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.left2{
+    margin:0 auto;
+    background-color: aqua;
+    display: flexS;
+}
+
+.container2 {
+    height:300px;
+    width:300px;
+    margin-top:20px;
+    display: flex;
+}
