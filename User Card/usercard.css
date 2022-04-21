@@ -1,16 +1,14 @@
 .card {
-    height:500px;
     border: solid gray 2px;
     display:flex;
-    justify-content: space-around;
-    width:
-    padding:20px,100px,20px,100px;
-    }
+    width: 1000px;
+    height:500px;
+    
+}
 
 
 .backgroundline {
     background-color:aqua;
     height:100px;
-    display: inline;
-}
-
+    width: 1000px;
+    }
