@@ -1,0 +1,51 @@
+.child{
+    height:150px;
+}
+
+.ggc {
+    background-color: aqua;
+    height:100px;
+}
+
+.parent > .child { /*(inside) (20points)*/
+    background-color: violet;
+
+}
+
+.parent{
+    height:300px;
+    background-color:red;
+}
+
+.parent,.child{ /*(target all parents or all child)(10points)*/
+    border: 4px dashed green;
+}
+
+.child:hover {
+    background-color: blue;
+}
+
+.parent.child { /*(both (no space)) (20points)*/
+    border: 10px solid black ;
+}
+
+.bob {
+    display: inline-block;
+    height:200px;
+    width:200px;
+    background-color: brown;
+    position:absolute;
+    bottom:10px;
+    right:50px;
+}
+
+.carl {
+    display: inline-block;
+    height:100px;
+    width:100px;
+    position:relative;
+    top:30px;
+    background-color: blue;
+
+
+}
