@@ -3,12 +3,40 @@
     display:flex;
     width: 1000px;
     height:500px;
-    
+    flex-direction: column;
 }
 
 
 .backgroundline {
     background-color:aqua;
-    height:100px;
+    flex:1;
     width: 1000px;
-    }
+}
+
+.user {
+    flex: 4;
+}
+
+div > img {
+    height: 25px;
+    width: 25px;
+}
+
+.location {
+    display: flex;
+}
+
+.usercircle > img {
+    
+    height:100px;
+    width:100px;
+    position: fixed;
+    left:40px;
+    top:55px;
+    border: solid white 6px;
+    border-radius: 50%;
+}
+
+.user {
+    padding:50px;
+}
