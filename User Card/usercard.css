@@ -1,0 +1,16 @@
+.card {
+    height:500px;
+    border: solid gray 2px;
+    display:flex;
+    justify-content: space-around;
+    width:
+    padding:20px,100px,20px,100px;
+    }
+
+
+.backgroundline {
+    background-color:aqua;
+    height:100px;
+    display: inline;
+}
+
