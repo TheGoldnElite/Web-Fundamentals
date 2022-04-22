@@ -1,0 +1,168 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.column1{
+    display:flex;
+    width: 1000px;
+    height:500px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+/* Profile part */
+
+.profile {
+    border: solid gray 2px;
+    display:flex;
+    width: 1000px;
+    height:500px;
+    flex:1;
+    margin: 20px;
+    
+    
+    
+}
+
+
+.backgroundline {
+    background-color:rgb(23,162,184);
+    width: 1000px;
+    height:100px;
+    
+}
+
+.user {
+    margin-top: 80px;
+
+}
+
+div > img {
+    height: 25px;
+    width: 25px;
+}
+
+.location {
+    display: flex;
+}
+
+.usercircle > img {
+    height:100px;
+    width:100px;
+    position: fixed;
+    left:50px;
+    top:120px;
+    border: solid white 6px;
+    border-radius: 50%;
+}
+
+.user {
+    padding:50px;
+}
+
+/* Nav Part*/
+
+.nav {
+    background-color: rgb(51,51,51);
+    font-family: roboto;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color:white;
+    margin:5px 10px 5px 10px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin:15px;
+}
+
+.active {
+    color:white;
+}
+
+.grey {
+    color:grey;
+}
+
+.btn {
+    background-color: rgb(23,162,184);
+    border:3px solid black;
+    color: rgb(225,242,244);
+    box-shadow: 3px 3px 3px  black;
+}
+
+li {
+    margin:15px;
+}
+
+/*education*/
+.Box2 {
+    border: solid gray 2px;
+    height:500px;
+    width:1000px;
+    margin-top: 75px;
+    
+    
+}
+
+
+.Education{
+    background-color: rgb(51,51,51);
+    color:white;
+    padding-top: 25px;
+    
+    
+}
+
+.column2{
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.requests{
+    flex:1;
+    border: 2px solid gray;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.connections {
+    border: 2px gray solid;
+    flex:1;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+#br {
+
+    background-color:rgb(51,51,51);
+    color:white;
+    
+}
+
+#Your {
+    background-color:rgb(51,51,51);
+    color:white;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.requests > #br{
+    margin-left: 20px;
+}
