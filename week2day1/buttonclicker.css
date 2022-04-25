@@ -1,0 +1,89 @@
+/*top bar*/
+.topbar {
+    background-color:rgb(204,204,204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1000px;
+    padding:10px 10px 10px 10px;
+    
+}
+.topbar > input {
+    width: 500px;
+}
+.Login {
+    background-color:rgb(43,120,228);
+    color:white;
+    height:30px;
+    width:70px;
+    margin: 10px;
+    box-shadow:  5px 5px 0px black;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*column 1*/
+
+.column1 {
+    width: 500px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+
+}
+
+.ninja1 {
+    border:2px solid black;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex: 1;
+    
+
+}
+.ninja2 {
+    border: 2px solid black;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex:1;
+}
+
+.left {
+    display: inline;
+}
+.right {
+    display: inline;
+    text-align: center;
+}
+
+.left1{
+    display: inline;
+    
+}
+
+.right2 {
+    display: inline;
+    text-align: center;
+}
+
+
+/*column2*/
+
+.column2 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+}
+.box {
+    flex:1;
+}
