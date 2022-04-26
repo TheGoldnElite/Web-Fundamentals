@@ -20,10 +20,6 @@
     box-shadow:  5px 5px 0px black;
 
 }
-body {
-    
-}
-    
 
 /*column 1*/
 
@@ -33,6 +29,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
+    padding: 20px ;
 }
 
 .ninja1 {
@@ -40,6 +37,8 @@ body {
     height:250px;
     width:600px;
     flex:1;
+    padding: 20px;
+    margin-bottom: 20px;
     
 
 }
@@ -48,7 +47,8 @@ body {
     border:2px solid black;
     height:250px;
     width:600px;
-    
+    flex: 1;
+    padding: 20px;
 }
 
 .left {
@@ -73,15 +73,20 @@ body {
 /*column2*/
 
 .column2 {
-    flex-direction: column;
+    display: flex;
     border:2px solid black;
-    height:200px;
+    height:100px;
     width:200px;
+    margin-left: 700px;
+    align-items: center;
+    
+    
     
 }
 
 .box {
     flex:1;
+    
 }
 
 .left > button{
