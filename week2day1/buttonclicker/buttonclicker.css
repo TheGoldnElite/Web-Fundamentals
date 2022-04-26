@@ -1,3 +1,8 @@
+.main {
+    align-items: flex-start;
+}
+
+
 /*top bar*/
 .topbar {
     background-color:rgb(204,204,204);
@@ -26,9 +31,7 @@
 .column1 {
     width:500px;
     height:500px;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
+    flex: 2;
     padding: 20px ;
 }
 
@@ -36,7 +39,6 @@
     border:2px solid black;
     height:250px;
     width:600px;
-    flex:1;
     padding: 20px;
     margin-bottom: 20px;
     
@@ -47,7 +49,6 @@
     border:2px solid black;
     height:250px;
     width:600px;
-    flex: 1;
     padding: 20px;
 }
 
@@ -73,21 +74,16 @@
 /*column2*/
 
 .column2 {
-    display: flex;
+    flex:1px;
     border:2px solid black;
     height:100px;
     width:200px;
-    margin-left: 700px;
-    align-items: center;
-    
-    
-    
+    padding:10px;
+    margin-top:110px;
+    margin-left: 20px;
 }
 
-.box {
-    flex:1;
-    
-}
+
 
 .left > button{
     background-color:rgb(255,217,102);
