@@ -1,0 +1,50 @@
+.test{
+    max-width:  75%;
+    margin:0 auto;
+    min-width: 900px;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.test1 {
+    background-color: red;
+    flex: 1;
+   
+
+}
+
+.test2 {
+    background-color: blue;
+    flex: 1;
+    
+}
+
+.test3{
+    background-color: yellow;
+    display: inline-block;
+    height:250px;
+    width:250px;
+    
+}
+.test4{
+    background-color: gray;
+    display: inline-block;
+    height:250px;
+    width:250px;
+}
+
+.test5{
+    background-color: purple;
+    display: inline-block;
+    height:250px;
+    width:250px;
+}
+
+.test6{
+    background-color: white;
+    display: inline-block;
+    height:250px;
+    width:250px;
+}
